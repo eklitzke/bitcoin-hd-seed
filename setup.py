@@ -8,6 +8,8 @@ setup(
     description='Extract the Bitcoin Core HD wallet seed',
     packages=find_packages('hdseed'),
     install_requires=['python-bitcoinrpc'],
-    entry_points={'console_scripts': [
-        'get-hd-seed = hdseed.getseed:main',
-    ]})
+    entry_points={
+        'console_scripts': [
+            'dump-hd-seed = hdseed.dump_seed:main',
+        ]
+    })

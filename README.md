@@ -25,16 +25,16 @@ From the git checkout:
 mkvirtualenv -p python3 bitcoin-hd-seed
 workon bitcoin-hd-seed
 
-# Install get-hd-seed
+# Install dump-hd-seed
 pip install -r requirements.txt
 python setup.py install
 ```
 
-This will install a command called `get-hd-seed`.
+This will install a command called `dump-hd-seed`.
 
 ## Usage
 
-Just run `get-hd-seed`, and the seed will be dumped to stdout.
+Just run `dump-hd-seed`, and the seed will be dumped to stdout.
 
 If your wallet is locked, you will be prompted for a wallet passphrase. If you
 don't feel comfortable typing your passphrase this way, manually unlock the
